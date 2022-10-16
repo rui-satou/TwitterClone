@@ -67,6 +67,10 @@ a {
     text-decoration: none;
 }
 
+.text-sm {
+    font-size: 0.7rem;
+}
+
 /*
 サイド
 ****/
@@ -339,7 +343,7 @@ body.signup {
 }
 
 .profile .profile-area .top button {
-    border-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .profile .profile-area .name {
@@ -381,14 +385,14 @@ body.signup {
 
 /*
 通知
-***/
+****/
 .notification .notification-list .no-result {
     padding: 20px;
 }
 
 .notification .notification-list .notification-item {
     padding: 10px;
-    border-bottom: 1px solid rgb(235,238,240);
+    border-bottom: 1px solid rgb(235, 238, 240);
 }
 
 .notification .notification-list .notification-item .user {
@@ -399,7 +403,7 @@ body.signup {
 .notification .notification-list .notification-item .user img {
     width: 100%;
     border-radius: 50%;
-    border: 1px solid rgb(235,238,240);
+    border: 1px solid rgb(235, 238, 240);
 }
 
 .notification .notification-list .notification-item .content {
